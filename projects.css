@@ -1,0 +1,55 @@
+#projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+#project-collage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+#primath {
+    width: 500px;
+}
+
+#umbella {
+    width: 500px;
+    margin-left: calc(0.5 * 500px);
+    margin-top: -50px;
+}
+
+#bas-cal {
+    height: 300px;
+    width: 198px;
+    margin-top: -80px;
+    margin-left: calc(0.25 * 500px);
+    align-self: flex-start;
+}
+
+#project-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#project-description {
+    margin-left: 1rem;
+    padding: 1.5rem 3rem;
+    width: 50vw;
+    max-width: 500px;
+}
+
+span {
+    font-size: 25px;
+}
+
+#calc-emoji {
+    font-size: 40px;
+}
