@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600;700&family=Montserrat:wght@100;300;400;600;700&display=swap');
+
+:root {
+    --prime-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Hind', sans-serif;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EFE9E4;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+} 
+
+.descriptive-text {
+    background-color: #333;
+    color: #fff;
+}
+
+.head-text, .desc-text {
+    margin-bottom: 1rem;
+}
+
+.head-text {
+    font-family: var(--prime-font);
+    font-weight: bold;
+    font-size: 64px;
+}
+p.head-text {
+    font-size: 20px;
+}
+
+.desc-text {
+    font-family: var(--secondary-font);
+    font-weight: lighter;
+    font-size: 20px;
+}
+

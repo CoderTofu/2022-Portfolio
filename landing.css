@@ -1,0 +1,38 @@
+#landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+#landing-pic img {
+    height: 800px;
+    width: auto;
+}
+
+#about {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me {
+    width: 50vw;
+    max-width: 500px;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+#learn-more {
+    width: fit-content;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: 0.1s ease-in-out;
+}
+#learn-more:hover {
+    transform: scale(1.1);
+}
