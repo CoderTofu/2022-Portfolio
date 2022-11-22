@@ -12,6 +12,7 @@
     flex-direction: column;
     width: 100%;
     padding: 100px;
+    padding-right: 50px;
 }
 
 .collage {
@@ -31,6 +32,7 @@
 #umbella {
     width: 400px;
     margin-top: -50px;
+    margin-right: 50px;
     align-self: flex-end;
 }
 
@@ -43,7 +45,6 @@
 
 #project-container {
     width: 100%;
-    margin-right: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,6 +88,12 @@ span {
 
 #calc-emoji {
     font-size: 40px;
+}
+
+@media (max-width: 1400px) {
+    #project-container {
+        margin-right: 100px;
+    }
 }
 
 @media (max-width: 1300px) {
