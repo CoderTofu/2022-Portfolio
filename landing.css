@@ -38,3 +38,49 @@
     padding: 0.8rem 2rem;
     border-radius: 20px;
 }
+
+@media (max-width: 1150px) {
+    #landing {
+        height: 100vh;
+        max-height: 800px;
+    }
+
+    #landing-pic img{
+        height: auto;
+        max-width: 50vw;
+    }
+}
+
+@media (max-width: 1050px) {
+    #landing-pic img{
+        display: none;
+    }
+
+    #about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-me {
+        width: 80vw;
+        max-width: none;
+    }
+
+    #landing {
+        margin-bottom: 0px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    #about-me {
+        width: 100vw;
+    }
+
+    #about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
